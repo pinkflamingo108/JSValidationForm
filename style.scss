@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: url(/image01.jpg) center center/cover;
+}
+
+.main-container{
+    width: 100vw;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.registration-form {
+    background: #f1f1f1;
+    opacity: .8;
+    width: 40vw;
+    height: 90vh;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    overflow: hidden;
+  
+
+    h2{
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+}
+
+
+.name-container, .password-container, .city-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    p{
+        font-size: 17px;
+        margin: 10px 20px 0px 20px;  
+    }
+
+    input{
+        margin: 10px 30px 20px 20px;
+        height:25px;
+        font-size: 20px;
+    }
+ 
+  }  
+
+
+
+
+.gender-container{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    p{
+        font-size: 20px;
+        margin: 10px 20px 0px 20px;  
+    }
+
+    input{
+        margin: 15px 10px 10px 20px;
+        display: inline;
+
+  
+
+      
+        
+    }
+
+}
+
+.button-container{
+display: flex;
+justify-content: center;
+margin-top: 20px;
+
+
+.btn{
+padding: 15px 25px;
+background: #428bca;
+border: none;
+border-radius: 5px;
+color: #fff;
+
+
+
+&:hover{
+opacity: .8;
+cursor: pointer;
+
+}
+
+}
+
+}
+
+
+.nameP-class, .passwordP-class, .lengthP-class, .caseP-class, .numberP-class,.cityP-class, .genderP-class{
+color: #d9534f;
+margin: 2px 0 0px 20px;
+
+}

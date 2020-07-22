@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="main-container">
+
+        <div class="requirements">
+
+        </div>
+
+        <div class="registration-form">
+
+
+
+            <h2>Registration Form</h2>
+
+            <div class="name-container">
+                <p>Name</p>
+                <input id="name" type="text">
+            </div>
+            <div class="name-message"></div>
+            <div class="password-container">
+                <p>Password</p>
+                <input id="password" type="password">
+            </div>
+            <div class="password-message"></div>
+            <div class="city-container">
+                <p>City</p>
+                <input id="city" type="text">
+            </div>
+            <div class="city-message"></div>
+            <div class="gender-container">
+                <div class="gender-header">
+                    <p>Gender</p>
+                </div>
+                <form>
+                    <input type="radio" id="male" name="gender" class="myRadio" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" class="myRadio" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" class="myRadio" value="other">
+                    <label for="other">Other</label>
+                </form>
+                <div class="gender-message"></div>
+                <div class="button-container">
+                    <button class="btn">Submit</button>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
